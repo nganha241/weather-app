@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(./img1.png) no-repeat center/cover;
+}
+
+#weather {
+    width: 351px;
+    height: 577px;
+    border: none;
+    border-radius: 10px;
+    background: url(./img1.png) no-repeat center/cover;
+}
